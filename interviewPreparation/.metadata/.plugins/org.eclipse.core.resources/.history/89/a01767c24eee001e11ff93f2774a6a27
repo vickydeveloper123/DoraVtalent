@@ -1,0 +1,30 @@
+package com.basicProgramsbyUsingForLoops;
+
+public class EvenNumber {
+	public static void main(String[] args) {
+		
+		// Algorithm :
+		// Before if we want to exectue any program we need algorithm,
+		// Algorithm is nothing some finite set of instructions for the complettion of the task for the problem in the program.
+		// With the help of this algorithm we can able to understanding the working procedure of the Program in any Programming 
+		// language like python, java,.net, c.
+		
+		
+		System.out.println("===Even number/ ODD Number Program======");
+		
+		// Even Number : Any number which is divisible with 2 is called even number,
+		// Odd Number : Any number which is not divisible by 2 is called Odd Number,
+		// Prime Number : Any number which is divisible by 1 and itself is called prime Number.
+		
+		int number=1;
+		if(number%2==0) {
+			System.out.println("Even number==>"+number);
+		}
+		else
+		{
+			System.out.println("Odd Number==>"+number);
+		}
+		
+	}
+
+}

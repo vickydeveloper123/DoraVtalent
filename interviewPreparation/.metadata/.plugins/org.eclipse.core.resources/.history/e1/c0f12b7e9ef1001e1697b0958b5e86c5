@@ -1,0 +1,31 @@
+package com.variables.methods;
+
+import java.util.Scanner;
+
+public class methods {
+	
+	public static void main(String[] args) {
+		
+		Scanner number=new Scanner(System.in);
+		
+		
+		
+	}
+	
+	
+	public void multiplicationTable(int n) {
+		
+		int iterations=0;
+		int resultantvalue;
+		
+		for(iterations=0;iterations<=10;iterations++) {
+			System.out.println("Multiplication Table===>");
+			resultantvalue=n*iterations;
+			System.out.println(resultantvalue);
+		}
+		
+		
+		
+	}
+
+}

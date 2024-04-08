@@ -1,0 +1,59 @@
+package com.acessingmethodsusingobjects;
+
+
+public class Family1 {
+	public static void main(String[] args) {
+		Family1 family1Details=new Family1(null);
+		System.out.println(family1Details);
+		System.out.println("------------------------------");
+		Family1 VigneshFamily=new Family1(null);
+		VigneshFamily.VigneshFamily(null);
+		VigneshFamily.SistersFamily(null);
+
+
+		
+	}
+	
+	
+	Family1(FamilyDetials ss){
+		System.out.println("Here in the above method we have created a new Class method");
+		System.out.println("Inside the method we have passes another class Name with a parameter");
+        System.out.println("So that we can access the entire information of that class");
+        System.out.println("Here the advantage is we can assign the values to the references in the family Details of other class");
+		FamilyDetials reference=new FamilyDetials(ss);
+		//System.out.println(ss.surname);
+		
+        System.out.println(reference.surname);
+        System.out.println(reference.familyIncome);
+		System.out.println(reference.Address);
+		System.out.println(reference.totalHowManyMembers);
+		System.out.println(reference.phoneNumber);
+		System.out.println(reference.Age);
+	}
+	
+	public void VigneshFamily(FamilyDetials members) {
+		
+		String name="Dora Sri Vignesh";
+		int children=4;
+		String occupationPlace="Hyderabad";
+		System.out.println(members.surname);
+		System.out.println("HeadOfFamily==>"+members.surname.concat(name));
+	
+		
+		
+	}
+	
+public void SistersFamily(FamilyDetials members) {
+		
+		String name="Vijaya Durga";
+		int children=2;
+		String occupationPlace="Banglore";
+		System.out.println(members.surname);
+		System.out.println("HeadOfFamily==>"+members.surname.concat(name));
+	
+		
+		
+	}
+
+
+}

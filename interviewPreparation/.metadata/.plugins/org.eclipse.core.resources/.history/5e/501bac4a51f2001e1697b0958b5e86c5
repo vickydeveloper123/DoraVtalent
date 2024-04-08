@@ -1,0 +1,59 @@
+package com.variables.methods;
+
+public class methodsAndParameters {
+	// Here totally we have 4 types of method types
+	// 1. method name without parameters and without return type.
+	// 2. method name with parameters and without return type.
+	// 3. method name without parameters and with return type.
+	// 4. method name with parameters and and with return type.
+
+	public void studentDetails() {
+		String batchName = "Batch No: 27";
+		String studentCourseName = "Java Full stack";
+		System.out.println("Student Batch=>" + batchName);
+		System.out.println("CourseName   =>" + studentCourseName);
+	}
+
+	// Type 2
+
+	public void StudentEducationDetails(String degreeCompletedCourseName) {
+		// degreeCompletedCourseName="B.TECH";
+		System.out.println(degreeCompletedCourseName);
+
+	}
+
+	// Type 3
+
+	public int studentAge() {
+		System.out.println(
+				"Age should not exceed limit maximum 30, if 30 completed  you are not eligible for IT industry");
+		return 30;
+	}
+
+	// Type 4
+	public static double CourseDetails(double fees, int duration) {
+		/*
+		 * fees = 30000; duration = 6;
+		 */
+		System.out.println("Total Course Fees =>" + fees);
+		System.out.println("Total Course duration =>" + duration);
+
+		return 0;
+
+	}
+
+	public static void main(String[] args) {
+		methodsAndParameters reference = new methodsAndParameters();
+		System.out.println(" By Using Type 1 ");
+		reference.studentDetails();
+		System.out.println("By Using Type 2");
+		reference.StudentEducationDetails("Education Qualification must to enter into IT company==>" + "B.TECH(computer science and engineering");
+		System.out.println("By Using Type 3");
+		reference.studentAge();
+		System.out.println("By Using Type 4");
+		//methodsAndParameters.CourseDetails();
+		System.out.println(reference.CourseDetails(3000,9));
+
+	}
+
+}

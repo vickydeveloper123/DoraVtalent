@@ -1,0 +1,19 @@
+package com.localvariables;
+
+public class ClassRunner {
+
+	public static void main(String[] args) {
+		
+		class2 class2Data=new class2();
+		System.out.println(class2Data.scrumMaster);
+		System.out.println(class2Data.fees);
+		System.out.println(class2Data.name);
+		//System.out.println(class2Data.PythonTeam());
+		System.out.println(class2Data.JavaTeam());
+		
+		class1 reference2=new class1();
+		reference2.JavaTeam();
+
+	}
+
+}

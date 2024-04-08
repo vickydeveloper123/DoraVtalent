@@ -1,0 +1,44 @@
+package com.arrays;
+
+import java.util.Arrays;
+
+public class SortingOfAnArray {
+	
+	public static void main(String[] args) {
+		SortingOfAnArray reference=new SortingOfAnArray();
+		reference.SortingArray();
+	}
+		
+		
+		public static void SortingArray() {
+		
+		int[] arrayValues= {34,67,11,0,65,34,56,999};
+		
+		int temp;
+		
+		for(int i=0;i<arrayValues.length;i++) {
+			for(int j=0;j<arrayValues.length;j++) {
+				
+				if(arrayValues[i]>arrayValues[j]) {
+					temp=arrayValues[i];
+					arrayValues[i]=arrayValues[j];
+					arrayValues[j]=temp;
+				}
+			}
+			
+			System.out.println(Arrays.toString(arrayValues));
+
+		
+		}
+		
+		System.out.println("========Finally we got sorted Array===========");
+		
+		System.out.println(Arrays.toString(arrayValues));
+		
+		
+		
+		
+		
+	}
+
+}

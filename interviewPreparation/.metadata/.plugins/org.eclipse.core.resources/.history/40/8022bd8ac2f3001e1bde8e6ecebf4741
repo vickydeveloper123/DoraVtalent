@@ -1,0 +1,23 @@
+package com.acessingmethodsusingobjects;
+
+public class Family1 {
+	public static void main(String[] args) {
+		Family1 family1Details=new Family1(null);
+		System.out.println(family1Details);
+
+		
+	}
+	
+	
+	Family1(FamilyDetials ss){
+		
+		FamilyDetials reference=new FamilyDetials(ss);
+        System.out.println(reference.surname);
+        System.out.println(reference.familyIncome);
+		System.out.println(reference.Address);
+		System.out.println(reference.totalHowManyMembers);
+		System.out.println(reference.phoneNumber);
+		System.out.println(reference.Age);
+	}
+
+}

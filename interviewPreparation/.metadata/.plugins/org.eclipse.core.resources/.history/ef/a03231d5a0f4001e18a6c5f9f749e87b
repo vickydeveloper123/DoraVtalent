@@ -1,0 +1,16 @@
+package com.acessingmethodsusingobjects;
+
+public class FamilyDetials {
+
+	public FamilyDetials(FamilyDetials ss) {
+		// TODO Auto-generated constructor stub
+	}
+	static String surname="Rachamalli";
+    int totalHowManyMembers;
+    double phoneNumber;
+    String Address;
+    float familyIncome;
+    int Age;
+	
+	
+}

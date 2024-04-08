@@ -1,0 +1,9 @@
+package com.acessingmethodsusingobjects;
+
+public class FamilyDetials {
+
+	static String surname="Rachamalli";
+	
+	
+	
+}

@@ -1,0 +1,48 @@
+package com.localvariables;
+
+public class class1 {
+	
+	public static String name="Vtalent software solutions hyderabad";
+	public static int fees=30000;
+	public String scrumMaster="Dheeraj";
+	
+	public  String  JavaTeam() {
+		System.out.println("These are the local variables which are declared inside the class");
+		int studentsLists=33;
+		String trainerName="SrinivasTeja";
+		byte couseCompletioninMonths=6;
+		String classTimmings="Morning Daily(9.00am to 10.00am )";
+		return class1.name;//(see team here in the same class we can call directly static referece variable using class name)
+		
+	}
+	
+	public void PythonTeam() {
+		
+		System.out.println("These are the local variables which are declared inside the Python class");
+		int studentsLists=40;
+		String trainerName="dora";
+		byte couseCompletioninMonths=6;
+		String classTimmings="Morning Daily(9.00am to 10.00am )";
+		
+		System.out.println("Total Team Members    ==>"+studentsLists);
+		System.out.println("Trainers Name         ==>"+trainerName);
+		System.out.println("Course Completion Period==>"+couseCompletioninMonths);
+		
+		System.out.println("See team as you can observe we can not able to extract the local variables as it is inside the method");
+		System.out.println("We can not able to see these variables.");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		class1 reference=new class1();
+		reference.JavaTeam();
+		System.out.println(name);
+		System.out.println(class1.fees);
+		System.out.println("======================================");
+		reference.JavaTeam();
+		reference.PythonTeam();
+	}
+	
+
+}

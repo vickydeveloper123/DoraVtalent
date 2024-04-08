@@ -1,0 +1,25 @@
+package com.instancevariables;
+
+public class DoraITCompany {
+	
+	public static String companyName="DoraTechITprivateLimited";
+	static String softwareLanguagesUsedInProject="Java || Python ||.net || c++ || c# ";
+	public String locationNameOfCompany;
+	public String codeOfCompany;
+	public int noOfEmployers;
+	public double budgetOfProjectInCompany;
+	public String typesOfProjectsHandling;
+	public String typesOfOperations;
+	public float  phoneNumber;
+	
+	locationNameOfCompany="Nellore(AndhraPradeshState)";
+	noOfEmployers=500;
+	typesOfOperations="SOFTWARE AND TESTING OPERATIONS";
+    codeOfCompany="NLR1@2024";
+	typesOfProjectsHandling="Health Care Applications";
+	phoneNumber=852369;
+    budgetOfProjectInCompany=155F;
+	
+	
+
+}

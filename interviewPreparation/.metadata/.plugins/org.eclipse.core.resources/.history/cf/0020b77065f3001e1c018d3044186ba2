@@ -1,0 +1,71 @@
+package com.patterns.usingstaticmethod;
+
+import com.patterns.Pattern3;
+
+public class NumberTriangleProgram {
+
+	public static void main(String[] args) {
+
+		NumberTriangleProgram reference = new NumberTriangleProgram();
+		reference.pattern1();
+		reference.pattern1(1);
+		reference.Pattern2(1, 2);
+		System.out.println("----Directly calling by methos which is static in class ------");
+		pattern1();
+		pattern1(1);
+		// As below is the instance method we are declaring by using reference name , we can not declare like static method as it is not static .
+		reference.Pattern2(1,2);
+
+	}
+
+	public static void pattern1() {
+		System.out.println("==============Number-increasing Pyramid Pattern======================");
+
+		for (int i = 1; i <= 6; i++) {
+			for (int j = 1; j <= 6 - i; j++) {
+				System.out.print(" ");
+			}
+			for (int j = 1; j <= i; j++) {
+				System.out.print(i + " ");
+			}
+
+			System.out.println();
+
+		}
+	}
+
+	public static void pattern1(int i) {
+		System.out.println("===============Number triangle Pattern==============");
+
+		// outer loop to handle number of rows
+		for (i = 1; i <= 6; i++) {
+			// inner loop to print space
+			for (int j = 1; j <= 6 - i; j++) {
+				System.out.print(" ");
+			}
+			// inner loop to print star
+			for (int j = 1; j <= i; j++) {
+				System.out.print(i + " ");
+			}
+			// print new line for each row
+			System.out.println();
+		}
+	}
+
+	public int Pattern2(int i, int j) {
+		System.out.println("=================Number-increasing reverse Pyramid Pattern======================");
+
+		for (i = 6; i >= 1; i--) {
+			for (j = 1; j <= i; j++)
+				System.out.print(j + " ");
+			System.out.println();
+
+			// System.out.print(" ");
+		}
+		System.out.print(" ");
+
+		System.out.println(" ");
+		return 0;
+	}
+
+}

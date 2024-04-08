@@ -1,0 +1,13 @@
+package com.acessingmethodsusingobjects;
+
+public class FamilyDetials {
+
+	static String surname="Rachamalli";
+    int totalHowManyMembers;
+    double phoneNumber;
+    String Address;
+    float familyIncome;
+    int Age;
+	
+	
+}

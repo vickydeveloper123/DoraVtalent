@@ -1,0 +1,80 @@
+package com.arrays.usingstaticmethods;
+
+public class ArraysExample1 {
+	
+public static void main(String[] args) {
+	
+	ArraysExample1 refernce=new ArraysExample1();
+	refernce.method1(null);
+	ArraysExample1 refernce1=new ArraysExample1();
+	refernce.method2(null);
+
+	
+	
+}
+
+	public void method1(int[] array) {
+		int arrayy[] = new int[3];// n-1 3-1 = 2 0,1,2,
+		arrayy[0] = 123;
+		arrayy[1] = 234;
+		arrayy[2] = 345;
+		// array[3]=456;
+		System.out.println("index 0=>" + arrayy[0]);
+		System.out.println("index 1=>" + arrayy[1]);
+
+		System.out.println("index 2=>" + arrayy[2]);
+
+		// System.out.println("index 3s=>"+array[3]);
+
+		// System.out.println(array);
+
+		System.out.println("========String of Array ===========");
+
+		String[] stringReference = new String[3];
+		stringReference[0] = "Dora Sri Vignesh(Software Architect)";
+		stringReference[1] = "Akhila(Software developer)";
+		stringReference[0] = "Sanju(Software Engineer)";
+		stringReference[2] = "Mounika(Manager)";
+
+		System.out.println(stringReference);// [Ljava.lang.String;@67f89fa3
+
+		System.out.println("index 0=>" + stringReference[0]);
+		System.out.println("index 1=>" + stringReference[1]);
+
+		System.out.println("index 2=>" + stringReference[2]);
+	}
+	
+
+	public static void method2(int[] array) {
+		int arrayy[] = new int[3];// n-1 3-1 = 2 0,1,2,
+		arrayy[0] = 123;
+		arrayy[1] = 234;
+		arrayy[2] = 345;
+		// array[3]=456;
+		System.out.println("index 0=>" + arrayy[0]);
+		System.out.println("index 1=>" + arrayy[1]);
+
+		System.out.println("index 2=>" + arrayy[2]);
+
+		// System.out.println("index 3s=>"+array[3]);
+
+		// System.out.println(array);
+
+		System.out.println("========String of Array ===========");
+
+		String[] stringReference = new String[3];
+		stringReference[0] = "Dora Sri Vignesh(Software Architect)";
+		stringReference[1] = "Akhila(Software developer)";
+		stringReference[0] = "Sanju(Software Engineer)";
+		stringReference[2] = "Mounika(Manager)";
+
+		System.out.println(stringReference);// [Ljava.lang.String;@67f89fa3
+
+		System.out.println("index 0=>" + stringReference[0]);
+		System.out.println("index 1=>" + stringReference[1]);
+
+		System.out.println("index 2=>" + stringReference[2]);
+	}
+
+
+}

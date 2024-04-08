@@ -1,0 +1,30 @@
+package com.acessingmethodsusingobjects;
+
+public class FamilyDetials {
+	
+	
+	public static void main(String[] args) {
+		FamilyDetials reference=new FamilyDetials(null);
+		System.out.println("new family details");
+		reference.Address="Zp colony nellore";
+		System.out.println(reference.Address);
+		
+	}
+
+	public FamilyDetials(FamilyDetials ss) {
+
+		/*
+		 * FamilyDetials reference=new FamilyDetials(ss);
+		 * System.out.println("new family details"); ss.Address="Zp colony nellore";
+		 * System.out.println(ss.Address);
+		 */
+	}
+
+	static String surname = "Rachamalli";
+	int totalHowManyMembers;
+	double phoneNumber;
+	String Address;
+	float familyIncome;
+	int Age;
+
+}

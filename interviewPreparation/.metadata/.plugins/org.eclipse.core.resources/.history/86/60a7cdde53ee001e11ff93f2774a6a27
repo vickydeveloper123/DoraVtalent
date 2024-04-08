@@ -1,0 +1,37 @@
+package com.basicProgramsbyUsingForLoops;
+
+public class ArrayToFindMaxMin {
+	
+	public static void main(String[] args) {
+		
+		
+		int[] arrayy= {5,7,9,6,12,18,0};
+		
+		int maximum=arrayy[0];
+		int minimum=arrayy[0];
+		int tempValue=0;
+		
+		for(int a=0;a<arrayy.length;a++) {
+			
+			if(arrayy[a]>=tempValue ) { // 9>5  
+				System.out.println("This is the Maximum Number in the array==>"+arrayy[a]);// 9
+			}
+			
+			else if(arrayy[a]<=arrayy[0]) {
+				System.out.println("This is the Minimum Number in the array==>"+arrayy[a]);
+
+			}
+			else
+			{
+				System.out.println("There are no numbers");
+				
+			}
+			
+			
+		}
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.constructors;
+
+public class Constructorss {
+	
+	
+	String name="Dora Sri Vignesh";
+	int age=27;
+	float salary=1000000.0f;
+	static String nativePlace="Nellore" ;
+
+}

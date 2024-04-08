@@ -1,0 +1,13 @@
+package com.sisters;
+
+public class staticc {
+	
+	// instance variable , static variable and hash code.
+	// its simply the way of address of memory storage where objects are allocated.
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

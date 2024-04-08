@@ -1,0 +1,90 @@
+package com.instancevariables;
+
+public class Runner {
+	
+	public static void main(String[] args) {
+		
+		DoraITCompany reference1=new DoraITCompany();
+		System.out.println(reference1.companyName);
+		reference1.locationNameOfCompany="Nellore(AndhraPradeshState)";
+		reference1.noOfEmployers=500;
+		reference1.typesOfOperations="SOFTWARE AND TESTING OPERATIONS";
+		reference1.codeOfCompany="NLR1@2024";
+		reference1.typesOfProjectsHandling="Health Care Applications";
+		reference1.phoneNumber=852369;
+        reference1.budgetOfProjectInCompany=155F;
+        System.out.println("=======DoraTechDetails==============");
+        
+        System.out.println("======Fetching Hyderabad Details=========");
+        
+        HyderabadBranch reference2=new HyderabadBranch();
+        reference2.locationNameOfCompany="Hyderabad(TelanganaState)";
+        reference2.noOfEmployers=250;
+        reference2.typesOfOperations="Insurance Software Testing Applications";
+        reference2.codeOfCompany="HYD2@2024";
+        reference2.typesOfProjectsHandling="Insurane and Banking Applications";
+        reference2.phoneNumber=852467;
+        reference2.budgetOfProjectInCompany=56F;
+        
+        System.out.println("=================================================================");
+        System.out.println("                                                                 ");
+        
+        System.out.println("====Banglore Company Details=========");
+        BangloreBranch reference3=new BangloreBranch();
+        reference3.locationNameOfCompany="Banglore(KarnatakaState)";
+        reference3.noOfEmployers=300;
+        reference3.typesOfOperations="Software Manual and Automation Testing";
+        reference3.codeOfCompany="Banglore3@2024";
+        reference3.typesOfProjectsHandling="Logistics and Insurance Applications";
+        reference3.phoneNumber=852197;
+        reference3.budgetOfProjectInCompany=98F;
+        
+        System.out.println("====================================================================");
+        System.out.println("                                                                 ");
+        System.out.println("====Cannada Company Details=========");
+        
+        CannadaBranch reference4=new CannadaBranch();
+        reference4.locationNameOfCompany="Quebec City(CanndaCountry)";
+        reference4.noOfEmployers=600;
+        reference4.typesOfOperations="Testing and Debugging Deployment Team Operations";
+        reference4.codeOfCompany="CannadaQuebec4@2024";
+        reference4.typesOfProjectsHandling="Banking and Health Cara and Logistics as well";
+        reference4.phoneNumber=852797;
+        reference4.budgetOfProjectInCompany=65F;
+
+
+        System.out.println("====================================================================");
+        System.out.println("                                                                 ");
+        System.out.println("====London Company Details=========");
+        
+        LondonBranch reference5=new LondonBranch();
+        reference5.locationNameOfCompany="Bath And North East Somerset (LondonCountry)";
+        reference5.noOfEmployers=1000;
+        reference5.typesOfOperations="Deployment team by using DevOps team and handling Testing Team Operations";
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+		
+	}
+
+}

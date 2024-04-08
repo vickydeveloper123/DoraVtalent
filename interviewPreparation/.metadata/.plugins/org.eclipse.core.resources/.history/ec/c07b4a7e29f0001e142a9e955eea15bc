@@ -1,0 +1,25 @@
+package com.sisters;
+
+public class edaSister {
+	// instance --> Declared inside the class but outside the method.(global variable )
+	// local variable ==> Declared Outside the class but inside the method
+    // static variable --> public only (fixed)
+	
+	public static String trainerName="Dora";
+	public static String Fullname="Eda Joy Silvi"; // static variable
+	public String dateOfBirth="April - 1 -2024 "; // instance variable
+	static int adharNumber=12345; // static variable.
+	
+	
+	public boolean doraAnna() { //  method
+
+		
+		System.out.println("Dora bro is teaching instance ");
+		return true;
+		
+	}
+	
+	
+	
+	
+}

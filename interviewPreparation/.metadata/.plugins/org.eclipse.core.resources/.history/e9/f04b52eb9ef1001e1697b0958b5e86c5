@@ -1,0 +1,29 @@
+package com.variables.methods;
+
+import java.util.Scanner;
+
+public class methods {
+
+	public static void main(String[] args) {
+
+		Scanner n = new Scanner(System.in);
+		System.out.println("Please enter the multiplication table  to diaplay===>");
+		int value = n.nextInt();
+		methods reference = new methods();
+		reference.multiplicationTable(value);
+
+	}
+
+	public void multiplicationTable(int n) {
+
+		int iterations = 0;
+		int resultantvalue;
+		System.out.println("Multiplication Table===>");
+		for (iterations = 1; iterations <= 10; iterations++) {
+			resultantvalue = n * iterations;
+			System.out.println(n+" * "+iterations+"="+resultantvalue);
+		}
+
+	}
+
+}

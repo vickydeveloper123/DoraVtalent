@@ -1,0 +1,11 @@
+package com.acessingmethodsusingobjects;
+
+public class Family1 {
+	
+	Family1(FamilyDetials ss){
+		
+		FamilyDetials reference=new FamilyDetials(ss);
+		reference.
+	}
+
+}

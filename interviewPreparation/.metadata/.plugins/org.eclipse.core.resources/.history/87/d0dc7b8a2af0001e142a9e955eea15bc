@@ -1,0 +1,12 @@
+package com.sisters;
+
+public class MadhaviSister extends edaSister{ // inheritance.
+	public static String Fullname="Madhavi Software Designer(TCS company)"; // SCP
+	public static String dateOfBirth="march - 1 -2024 "; // SCP
+	 float pan=12355; // SCP
+	 public float salary=1536854;
+	 
+	
+	
+
+}

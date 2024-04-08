@@ -1,0 +1,49 @@
+package com.arrays;
+
+public class RemovingDuplicateElemets {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+	
+public static  int method( int[] array, int i){
+	int[] array1= {1,4,4,6,2,6,2,2,3,};
+
+		
+		for( i=0;i<=array1.length-i+1;i++) {
+			if(array1[i]!=array1[i+1])
+				
+				System.out.println("These are the duplicate elements in an array==>"+array1[i]);
+
+
+			if(array1[i+1]==array1[i])
+				//if(array[i]!=array[i+1])
+					continue;
+					//array[i]=array[i];
+			//System.out.println("These are the duplicate elements in an array==>"+array[i]);
+		}
+		
+		return array1[i];
+		}
+		
+	
+}
+
+			
+		
+			//System.out.print("array length value==>"+array.length);
+		
+		
+		// array[0]==array[i];
+		// array[i+1];
+
+		
+		
+		
+		
+	
+
+

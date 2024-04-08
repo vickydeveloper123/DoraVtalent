@@ -1,0 +1,42 @@
+package com.constructors;
+
+public class ConstructorRunnerClass {
+	
+	public static void main(String[] args) {
+		
+		ConstructorRunnerClass reference=new ConstructorRunnerClass();
+		
+		reference.hashCode();
+		
+		
+		Constructorss reference1=new Constructorss();
+		reference1.hashCode();
+		System.out.println("Place =>"+reference1.nativePlace);
+		
+		System.out.println("-----------------------1 st method of costructors--------------------------------");
+		
+		
+		Constructorss reference2=new Constructorss();
+		System.out.println("name   =>"+reference2.name);
+		System.out.println("Age    =>"+reference2.age);
+		System.out.println("Salary =>"+reference2.salary);
+		System.out.println("Native Place->"+reference2.nativePlace);// Here we can observe static variable also can be acessed through reference.
+		System.out.println("Calling through class name=>"+Constructorss.nativePlace);// This static variable we are calling with the class name.
+		
+		System.out.println("------------------------2 nd method of constructors------------------------------");
+		
+		Constructorss reference3=new Constructorss("VijayaDurga", 16, "Nellore");
+		System.out.println("name=>"+reference3.name);
+		System.out.println("Age =>"+reference3.age);
+		System.out.println("Salary=>"+reference3.salary);
+         
+		
+		
+
+		
+
+		
+		
+	}
+
+}

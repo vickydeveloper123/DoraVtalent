@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="enumOperation"/>
+    <fullyQualifiedTypeName name="java.lang.Enum"/>
+    <fullyQualifiedTypeName name="EnumFriends"/>
+    <fullyQualifiedTypeName name="javax.naming.Reference"/>
+    <fullyQualifiedTypeName name="com.inheritance.Aeroplane"/>
+    <fullyQualifiedTypeName name="com.inheritance.SpiceJet"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.localvariables.ClassRunner"/>
+    <fullyQualifiedTypeName name="com.localvariables.class2"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.variables.methods.methods"/>
+    <fullyQualifiedTypeName name="com.variables.methods.methodsAndParameters"/>
+    <fullyQualifiedTypeName name="com.patterns.ArrawPrinting"/>
+    <fullyQualifiedTypeName name="com.patterns.Pattern3"/>
+    <fullyQualifiedTypeName name="com.Strings.LoginFunctionality"/>
+    <fullyQualifiedTypeName name="com.arrays.RemovingDuplicateElemets"/>
+    <fullyQualifiedTypeName name="com.arrays.usingstaticmethods.Arrays1"/>
+    <fullyQualifiedTypeName name="com.arrays.usingstaticmethods.ArraysExample1"/>
+    <fullyQualifiedTypeName name="com.arrays.usingstaticmethods.ArrayExample2"/>
+    <fullyQualifiedTypeName name="com.arrays.usingstaticmethods.FindingEvenOddNumbersInArray"/>
+</qualifiedTypeNameHistroy>

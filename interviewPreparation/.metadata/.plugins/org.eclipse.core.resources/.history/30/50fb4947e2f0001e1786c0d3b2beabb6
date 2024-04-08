@@ -1,0 +1,26 @@
+package com.instancevariables;
+
+public class DoraITCompany {
+	
+	public static String companyName="DoraTechITprivateLimited";
+     static String softwareLanguagesUsedInProject="Java || Python ||.net || c++ || c# "; // default static variable(fixed)
+	public String locationNameOfCompany;
+	public String codeOfCompany;
+	public int noOfEmployers;
+	public double budgetOfProjectInCompany;
+	public String typesOfProjectsHandling;
+	public String typesOfOperations;
+	public float   phoneNumber;
+	
+	// private --> access within the class
+	// default with in the class and the package.
+	// protected --> within in the package if we used import keyword of that package it will acess.
+	// public --> it will be available to all the classes.
+	
+	public static void main(String[] args) {
+		int a=10;// local variable
+	}
+	
+	
+
+}

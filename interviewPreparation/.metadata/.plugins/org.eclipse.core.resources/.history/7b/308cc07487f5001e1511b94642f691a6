@@ -1,0 +1,22 @@
+package com.constructors;
+
+public class ConstructorRunnerClass {
+	
+	public static void main(String[] args) {
+		
+		ConstructorRunnerClass reference=new ConstructorRunnerClass();
+		
+		reference.hashCode();
+		
+		
+		Constructorss reference1=new Constructorss();
+		reference1.hashCode();
+		System.out.println("Place =>"+reference1.nativePlace);
+		
+		System.out.println("-------------------------------------------------------");
+
+		
+		
+	}
+
+}

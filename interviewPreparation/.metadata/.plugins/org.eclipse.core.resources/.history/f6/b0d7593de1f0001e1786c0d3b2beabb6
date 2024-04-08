@@ -1,0 +1,16 @@
+package com.localvariables;
+
+public class class1 {
+	
+	public static String name="Vtalent software solutions hyderabad";
+	public int fees=30000;
+	
+	public static void JavaTeam() {
+		int studentsLists=33;
+		String trainerName="SrinivasTeja";
+		byte couseCompletioninMonths=6;
+		String classTimmings="Morning Daily(9.00am to 10.00am )";
+	}
+	
+
+}

@@ -1,0 +1,25 @@
+package com.instancevariables;
+
+public class Runner {
+	
+	public static void main(String[] args) {
+		
+		DoraITCompany reference1=new DoraITCompany();
+		System.out.println(reference1.companyName);
+		reference1.locationNameOfCompany="Nellore(AndhraPradeshState)";
+		reference1.noOfEmployers=500;
+		reference1.typesOfOperations="SOFTWARE AND TESTING OPERATIONS";
+		reference1.codeOfCompany="NLR1@2024";
+		reference1.typesOfProjectsHandling="Health Care Applications";
+		reference1.phoneNumber=852369;
+        reference1.budgetOfProjectInCompany=155F;
+        System.out.println("=======DoraTechDetails==============");
+        
+        System.out.println("======Fetching Hyderabad Details=========");
+        
+        HyderabadBranch reference2=new HyderabadBranch();
+        reference2.locationNameOfCompany="Hyderabad(TelanganaState)";
+		
+	}
+
+}

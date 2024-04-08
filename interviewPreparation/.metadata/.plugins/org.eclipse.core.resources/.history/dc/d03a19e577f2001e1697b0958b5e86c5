@@ -1,0 +1,43 @@
+package com.Strings;
+
+import java.util.Scanner;
+
+public class LoginFunctionality {
+	public static void main(String[] args) {
+		
+		
+		LoginFunctionality reference=new LoginFunctionality();
+		reference.LogInDetils(0, null);
+	}
+		
+		
+		
+		
+
+	public static  void LogInDetils(int n,String password) {
+		Scanner sc=new Scanner(System.in);
+
+		String name="Dora";
+		String password1="Dora@123";
+		System.out.println("enter a name");
+
+		String n1=sc.nextLine();
+		System.out.println("enter a password");
+
+		String p=sc.nextLine();
+
+		
+	
+
+		if (n1.equals(name) && p.equals(password1)) {
+
+			System.out.println("login successfully completed");
+			System.out.println("You are most welcome");
+		} else
+
+			System.out.println("invalid input");
+
+	}
+	
+
+}

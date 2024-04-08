@@ -1,0 +1,13 @@
+package com.instancevariables;
+
+public class Runner {
+	
+	public static void main(String[] args) {
+		
+		DoraITCompany reference1=new DoraITCompany();
+		System.out.println(reference1.companyName);
+		
+		
+	}
+
+}

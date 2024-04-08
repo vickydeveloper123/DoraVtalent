@@ -1,0 +1,36 @@
+package com.arrays.usingstaticmethods;
+
+import java.util.Scanner;
+
+public class Arrays1 {
+	
+	
+	public static void main(String[] args) {
+		Arrays1 reference=new Arrays1();
+		
+	}
+	
+	
+
+	public int[] method(int [] arrayreference) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please enter the array size to store the data: :");
+		int size = scanner.nextInt();
+		int[] arrayreference1 = new int[size];
+
+
+	for (int i = 0; i < size; i++) {// intilizzation, condition, incrementing/dec
+		arrayreference1[i] = scanner.nextInt();// user choice condition.
+	} // input
+
+	for (int i = 0; i < size; i++) {
+		System.out.print("These are the values stored in the array :");
+		System.out.println(arrayreference1[i]);
+	} // output
+	return arrayreference1;
+
+}
+	
+}
+
+	

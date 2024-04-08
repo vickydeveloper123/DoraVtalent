@@ -1,0 +1,49 @@
+package com.sisters;
+
+public class staticc {
+
+	// instance variable , static variable and hash code.
+	// its simply the way of address of memory storage where objects are allocated.
+
+	public static void main(String[] args) {
+
+		edaSister edaData = new edaSister();//
+		// PASSWORDS CREATION WE WU
+
+		edaData.doraAnna();
+		edaData.dateOfBirth = "APRIL 2020";
+		edaData.Fullname = "JESUS GIRL";
+		edaData.adharNumber = 35465;
+
+		System.out.println(edaData.dateOfBirth);
+		System.out.println(edaData.Fullname);
+		System.out.println(edaData.adharNumber);
+
+		// Dora
+
+		System.out.println("--------------------------------------------------");
+
+		MadhaviSister madhaviPanDetails = new MadhaviSister();//
+
+		System.out.println(madhaviPanDetails.Fullname);
+		System.out.println(madhaviPanDetails.dateOfBirth);
+		System.out.println(madhaviPanDetails.adharNumber);
+		System.out.println(madhaviPanDetails.salary);
+
+		madhaviPanDetails.adharNumber = 6462464; // static
+		// madhaviPanDetails.salary // instance
+
+		System.out.println(madhaviPanDetails.adharNumber);
+
+		madhaviPanDetails.doraAnna();
+
+		System.out.println("trainer name ==>" + madhaviPanDetails.trainerName);
+		System.out.println("Tecnology Name==>" + madhaviPanDetails.technologyName);// default
+
+		madhaviPanDetails.technologyName = "Java full stack development";
+
+		System.out.println(madhaviPanDetails.technologyName);
+
+	}
+
+}

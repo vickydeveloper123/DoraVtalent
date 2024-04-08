@@ -1,0 +1,10 @@
+package com.sisters;
+
+public class MadhaviSister {
+	public static String Fullname="Madhavi Software Designer(TCS company)"; // SCP
+	public String dateOfBirth="march - 1 -2024 "; // SCP
+	static float pan=12355; // SCP
+	
+	
+
+}

@@ -1,0 +1,116 @@
+package com.acessingmethodsusingobjects;
+
+import java.util.Scanner;
+
+public class Family1 {
+	public static void main(String[] args) {
+		Family1 family1Details = new Family1();
+		System.out.println(family1Details);
+		System.out.println("------------------------------");
+		Family1 VigneshFamily = new Family1();
+		VigneshFamily.VigneshFamily(null);
+		System.out.println("------------------------------");
+		Family1 SistersFamily = new Family1();
+		SistersFamily.SistersFamily(null);
+		System.out.println("------------------------------");
+		Family1 parent= new Family1();
+		Parents(null);
+		System.out.println("------------------------------");
+		Family1 details= new Family1();
+		
+		Scanner scanner=new Scanner(System.in);
+        details.Parents(null);
+        
+        Family1 reference=new Family1();
+		Scanner scanner1=new Scanner(System.in);
+		int governmentID = scanner1.nextInt();
+		if(governmentID==101) {
+			System.out.println(reference.VigneshFamily(null));
+		}
+		
+		
+
+       
+		
+
+
+	}
+
+	/*
+	 * Family1(FamilyDetials ss) { System.out.
+	 * println("Here in the above method we have created a new Class method");
+	 * System.out.
+	 * println("Inside the method we have passes another class Name with a parameter"
+	 * ); System.out.
+	 * println("So that we can access the entire information of that class");
+	 * System.out.println(
+	 * "Here the advantage is we can assign the values to the references in the family Details of other class"
+	 * ); String name="Family";
+	 * 
+	 * FamilyDetials reference = new FamilyDetials(ss);
+	 * System.out.println(ss.surname); System.out.println(ss.surname.concat(name));
+	 * 
+	 * System.out.println(reference.surname);
+	 * System.out.println(reference.familyIncome);
+	 * System.out.println(reference.Address);
+	 * System.out.println(reference.totalHowManyMembers);
+	 * System.out.println(reference.phoneNumber); System.out.println(reference.Age);
+	 * }
+	 */
+
+	public boolean VigneshFamily(FamilyDetials members) {
+		
+		Scanner scanner=new Scanner(System.in);
+		int governmentId=scanner.nextInt();
+		
+		int governmenttID=101;		
+		String name = "Dora Sri Vignesh";
+		int children = 4;
+		String occupationPlace = "Hyderabad";
+		System.out.println(members.surname);
+		System.out.println("HeadOfFamily==>" + members.surname.concat(name));
+		System.out.println("Total Family Members=>" + children);
+		return true;
+		
+
+	}
+
+	public void SistersFamily(FamilyDetials members) {
+        int governmentID=102;
+		String name = "Vijaya Durga";
+		int children = 2;
+		String occupationPlace = "Banglore";
+		System.out.println(members.surname);
+		System.out.println("HeadOfFamily==>" + members.surname.concat(name));
+
+	}
+
+	public static void Parents(FamilyDetials members) {
+		int governementId=103;
+
+		String headOfFamily = "Mallikarjuna Rao";
+		String mothersName = "Koppu Uma Maheswari";
+		int children = 2;
+		String occupationPlace = "Nellore";
+		System.out.println("Fathers Name=>" + members.surname.concat(headOfFamily));
+		System.out.println("Mothers Name=>" + members.surname.concat(mothersName));
+
+		System.out.println("NoOfChildren==>" + children);
+		System.out.println("OccupationPlace==>" + occupationPlace);
+
+	}
+	
+	Family1  fetcingDetails(int governmentID) {
+		Family1 reference=new Family1();
+		Scanner scanner=new Scanner(System.in);
+		governmentID=scanner.nextInt();
+		if(governmentID==101) {
+			System.out.println(reference.VigneshFamily(null));
+		}
+		
+		
+		return null;
+		
+	}
+
+}

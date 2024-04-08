@@ -1,0 +1,27 @@
+package com.variables.methods;
+
+public class methods {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+	
+	public void multiplicationTable(int n) {
+		
+		int iterations=0;
+		int resultantvalue;
+		
+		for(iterations=0;iterations<=10;iterations++) {
+			System.out.println("Multiplication Table===>");
+			resultantvalue=n*iterations;
+			System.out.println(resultantvalue);
+		}
+		
+		
+		
+	}
+
+}

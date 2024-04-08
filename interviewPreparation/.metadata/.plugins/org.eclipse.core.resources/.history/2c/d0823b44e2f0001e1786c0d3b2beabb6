@@ -1,0 +1,12 @@
+package com.localvariables;
+
+public class ClassRunner {
+
+	public static void main(String[] args) {
+		
+		class2 class2Data=new class2();
+		System.out.println(class2Data.scrumMaster);
+
+	}
+
+}
